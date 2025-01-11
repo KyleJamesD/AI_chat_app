@@ -9,14 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mantine/core": "^7.15.3",
+    "@mantine/hooks": "^7.15.3",
+    "marked": "^15.0.6",
+    "next": "15.1.4",
+    "openai": "^4.78.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.4"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^19",
-    "@types/react-dom": "^19"
+    "@types/react-dom": "^19",
+    "postcss": "^8.4.49",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "^5"
   }
 }
